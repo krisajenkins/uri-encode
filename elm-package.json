@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "summary": "URI-Encoding",
+    "repository": "https://github.com/krisajenkins/uri-encode.git",
+    "license": "BSD3",
+    "source-directories": [
+        "src"
+    ],
+    "native-modules": true,
+    "exposed-modules": [
+        "Uri"
+    ],
+    "dependencies": {
+        "elm-lang/core": "2.0.0 <= v < 3.0.0"
+    },
+    "elm-version": "0.15.0 <= v < 0.16.0"
+}
