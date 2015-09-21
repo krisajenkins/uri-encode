@@ -1,3 +1,5 @@
+/*global Elm */
+
 // setup
 Elm.Native = Elm.Native || {};
 Elm.Native.Uri = Elm.Native.Uri || {};
