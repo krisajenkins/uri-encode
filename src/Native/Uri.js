@@ -3,12 +3,11 @@ Elm.Native = Elm.Native || {};
 Elm.Native.Uri = Elm.Native.Uri || {};
 
 // definition
-Elm.Native.Uri.make = function(localRuntime) {
+Elm.Native.Uri.make = function (localRuntime) {
     'use strict';
 
     // attempt to short-circuit
-    if ('values' in Elm.Native.Uri)
-    {
+    if ('values' in Elm.Native.Uri) {
         return Elm.Native.Uri.values;
     }
 
