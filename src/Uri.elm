@@ -13,7 +13,7 @@ equivalent.
 import Native.Uri
 
 {-| Encode a URI. Note that you cannot use this function to encode
-form parameters (because the `&` seperator will be encoded too). -}
+form parameters (because the `&` separator will be encoded too). -}
 encodeUri : String -> String
 encodeUri = Native.Uri.encodeUri
 
